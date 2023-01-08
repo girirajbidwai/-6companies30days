@@ -18,8 +18,7 @@ public:
 
                 if(pt[j][1]==pt[i][1]) 
 
-                mp[-90]++;//i assume slope to avoid slope of 90 degree(we can say that is Perpendicular line) 
-
+                mp[-90]++;
                 else{ 
 
                     double x = (double)(pt[j][0]-pt[i][0])/(double)(pt[j][1]-pt[i][1]);
